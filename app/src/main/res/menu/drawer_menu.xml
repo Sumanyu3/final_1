@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_play_store"
+            android:icon="@drawable/rate"
+            android:title="प्ले स्टोर पर रेटिंग दें" />
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/heart"
+            android:title="डोनेट" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/about_us"
+            android:title="हमारे बारे में" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_message"
+            android:title="काॅन्टैक्ट अस" />
+
+        <item
+            android:id="@+id/books_link"
+            android:icon="@drawable/ic_book"
+            android:title="हमारी किताबें" />
+    </group>
+</menu>
